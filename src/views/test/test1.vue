@@ -1,5 +1,13 @@
 <template>
   <div>
-    test1
+    测试1
   </div>
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
+

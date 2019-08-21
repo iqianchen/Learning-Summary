@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <is-loading v-if='isLoading'></is-loading>
     <loading-error v-if="isError"  @reload='load' :errorDetails='errorDetails'></loading-error>
     <component :is="nowComponent" v-if='!isLoading && !isError' ref="componentChild"></component>

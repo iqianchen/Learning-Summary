@@ -26,4 +26,25 @@
   "alias": "测试页面2",
   "icon": "",
   "components": "test/test1"
+},{
+  "id": 5,
+  "parentId": 0,
+  "name": "summary",
+  "alias": "总结",
+  "icon": "",
+  "components": ""
+},{
+  "id": 6,
+  "parentId": 5,
+  "name": "vsCode",
+  "alias": "vsCode常用插件整理",
+  "icon": "",
+  "components": "summary"
+},{
+  "id": 7,
+  "parentId": 5,
+  "name": "git",
+  "alias": "git命令整理",
+  "icon": "",
+  "components": "summary"
 }]

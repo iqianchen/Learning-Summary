@@ -5,7 +5,7 @@
 </template>
 
 <style lang="less">
-@import '~less/iViewReset.less';
+@import '~less/iview-reset.less';
 @import '~less/base.less';
 #app {
   height: 100%;

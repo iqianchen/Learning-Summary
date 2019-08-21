@@ -29,19 +29,16 @@
 </template>
 
 <script>
-import { nativeMenu, menus } from '@/assets/js/createMenu.js'
 import { mapState, mapActions } from "vuex";
+import menuJson from '@/assets/data/menu.json'
+import createTreeMenu from '@/assets/js/createTreeMenu.js'
 
 export default {
   name: 'navBar',
   created() {
+    let menus = createTreeMenu(menuJson)
     this.getMenus(menus)
-    this.getNativeMenu(nativeMenu)
-    console.log('this', this)
-    // 设置首页 默认为菜单的第一项
-    // if (menus.length > 0 && menus[0].name) {
-    //   this.menuClick(menus[0].name)
-    // }
+    this.getNativeMenu(menuJson)
   },
   computed: {
     ...mapState("menu", {
