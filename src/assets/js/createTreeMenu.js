@@ -1,5 +1,3 @@
-// import nativeMenu from '@/assets/data/menu.json'
-
 /**
  * 创建树形菜单
  * @param {Array} nativeMenu 	json格式菜单数据
@@ -18,5 +16,3 @@ function createTreeMenu(nativeMenu, menuId = 0) {
 }
 
 export default createTreeMenu
-// const menus = createMenu(nativeMenu)
-// export { nativeMenu, menus }

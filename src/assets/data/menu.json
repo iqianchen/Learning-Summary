@@ -47,4 +47,18 @@
   "alias": "git命令整理",
   "icon": "",
   "components": "summary"
+},{
+  "id": 8,
+  "parentId": 0,
+  "name": "table",
+  "alias": "表格",
+  "icon": "",
+  "components": ""
+},{
+  "id": 9,
+  "parentId": 8,
+  "name": "tableExport",
+  "alias": "表格导出",
+  "icon": "",
+  "components": "table/tableExport"
 }]
