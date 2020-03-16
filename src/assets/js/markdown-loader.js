@@ -6,7 +6,7 @@ module.exports = function(src) {
     linkify: true,
     typographer: true,
     highlight: function(str, lang) {
-      return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}<code></pre>`
+      return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`
     }
   })
   const html = md.render(src)

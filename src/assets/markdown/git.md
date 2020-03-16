@@ -33,3 +33,8 @@
   * 回退到上一个版本 `git reset --hard HEAD^`
   * 回退到指定版本 `git reset --hard <commitId>`
   * `git reflog` 记录你输入的每一个命令
+
+
+## 远程推送
+ * 将本地仓库与远程仓库关联 `git remote add orgin <url>`
+ * 将本地代码推送至远程仓库 `git push -u orgin master`
